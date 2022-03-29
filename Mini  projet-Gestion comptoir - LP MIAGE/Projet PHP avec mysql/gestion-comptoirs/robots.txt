@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /ajax/
+Disallow: view
+Disallow: imprime-clients.php
+Disallow: imprime-fournisseur.php
+Disallow: imprime-produits.php
+Disallow: imprimer-facture.php

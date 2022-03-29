@@ -1,0 +1,1624 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<title>Rapport de listes MPD
+</title>
+<link href="Theme_BleuClair.css" type="text/css" rel="stylesheet">
+</head>
+<!--Ce fichier a été généré automatiquement par PowerAMC.-->
+<body>
+<h2>
+<a name="629">Table utilise</a> 
+</h2>
+<h3>
+<a name="630">Fiche de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Nom
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#629">utilise</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Code
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#629">UTILISE</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">SGBD
+</p>
+</td>
+<td width="75%">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="631">Nom de contrainte de paramètre de contrôle de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">CKT_UTILISE
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="632">Règle de validation serveur de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">%RULES%
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="633">Aperçu du code de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">if exists (select 1<br />
+            from  sysobjects<br />
+           where  id = object_id('UTILISE')<br />
+            and   type = 'U')<br />
+   drop table UTILISE<br />
+go<br />
+<br />
+/*==============================================================*/<br />
+/* Table : UTILISE                                              */<br />
+/*==============================================================*/<br />
+create table UTILISE (<br />
+   IDEVENT              int                  not null,<br />
+   IDMATERIEL           int                  not null,<br />
+   DESCRIPTION          char(700)            null,<br />
+   constraint PK_UTILISE primary key nonclustered (IDEVENT, IDMATERIEL)<br />
+)<br />
+go<br />
+
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="634">Liste des diagrammes contenant la table utilise</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp3.htm#3">Diagramme_1</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp3.htm#3">DIAGRAMME_1</a>
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="635">Liste des références sortantes de la table utilise</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+<td class="Header">
+<p align="center">Colonnes de clé étrangère
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp21.htm#100">utilise</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp21.htm#100">UTILISE</a>
+</p>
+</td>
+<td>
+<p align="left">idMateriel
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left"><a href="Rapp22.htm#106">utilise</a>
+</p>
+</td>
+<td class="TD2">
+<p align="left"><a href="Rapp22.htm#106">UTILISE2</a>
+</p>
+</td>
+<td class="TD2">
+<p align="left">idEvent
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="636">Liste de tous les objets dépendant de la table utilise</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de classe
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp21.htm#100">utilise</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp21.htm#100">UTILISE</a>
+</p>
+</td>
+<td>
+<p align="left">Référence
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left"><a href="Rapp22.htm#106">utilise</a>
+</p>
+</td>
+<td class="TD2">
+<p align="left"><a href="Rapp22.htm#106">UTILISE2</a>
+</p>
+</td>
+<td class="TD2">
+<p align="left">Référence
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="637">Liste des attributs étendus de la table utilise</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Type de données
+</p>
+</td>
+<td class="Header">
+<p align="center">Valeur
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de la cible
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">DataCompression
+</p>
+</td>
+<td>
+<p align="left">(Option physique)
+</p>
+</td>
+<td>
+<p align="left">&nbsp; 
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtCktNotForReplication
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Booléen)
+</p>
+</td>
+<td class="TD2">
+<p align="left">false
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">FilestreamPartitionScheme
+</p>
+</td>
+<td>
+<p align="left">(Chaîne)
+</p>
+</td>
+<td>
+<p align="left">&nbsp; 
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">FilestreamPartitionSchemeColumn
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">PartitionedTable
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">true
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">PartitionScheme
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">PartitionSchemeColumn
+</p>
+</td>
+<td>
+<p align="left">(Chaîne)
+</p>
+</td>
+<td>
+<p align="left">&nbsp; 
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="638">Liste des colonnes de la table utilise</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp37.htm#639">idEvent</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp37.htm#639">IDEVENT</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left"><a href="Rapp37.htm#646">idMateriel</a>
+</p>
+</td>
+<td class="TD2">
+<p align="left"><a href="Rapp37.htm#646">IDMATERIEL</a>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp37.htm#653">description</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp37.htm#653">DESCRIPTION</a>
+</p>
+</td>
+</tr>
+</table><br />
+<h2>
+<a name="639">Colonne idEvent de la table utilise</a> 
+</h2>
+<h3>
+<a name="640">Fiche de la colonne idEvent de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Nom
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#639">idEvent</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Code
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#639">IDEVENT</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Type de données
+</p>
+</td>
+<td width="75%">
+<p align="left">int
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Obligatoire
+</p>
+</td>
+<td width="75%">
+<p align="left">Oui
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="641">Nom de contrainte de paramètre de contrôle de la colonne idEvent de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">CKC_IDEVENT_UTILISE
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="642">Contrôle de la colonne idEvent de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur minimale
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur maximale
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur par défaut
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Unité
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Format
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Majuscules
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Minuscules
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Non modifiable
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Liste des valeurs
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="643">Règle de validation serveur de la colonne idEvent de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">%MINMAX% and %LISTVAL% and %UPPER% and %LOWER% and %RULES%
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="644">Liste de tous les objets dépendant de la colonne de table idEvent</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de classe
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp37.htm#660">Identifiant_1</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp37.htm#660">IDENTIFIANT_1</a>
+</p>
+</td>
+<td>
+<p align="left">Clé
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">&lt;Inconnu&gt;
+</p>
+</td>
+<td class="TD2">
+<p align="left">&lt;Inconnu&gt;
+</p>
+</td>
+<td class="TD2">
+<p align="left">Jointure de référence
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="645">Liste des attributs étendus de la colonne de table idEvent</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Type de données
+</p>
+</td>
+<td class="Header">
+<p align="center">Valeur
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de la cible
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtCkcNotForReplication
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtCollation
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtDeftConstName
+</p>
+</td>
+<td>
+<p align="left">(Chaîne)
+</p>
+</td>
+<td>
+<p align="left">&nbsp; 
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtIdentitySeedInc
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtIdtNotForReplication
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtNullConstName
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtRowGuidCol
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+</table><br />
+<h2>
+<a name="646">Colonne idMateriel de la table utilise</a> 
+</h2>
+<h3>
+<a name="647">Fiche de la colonne idMateriel de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Nom
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#646">idMateriel</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Code
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#646">IDMATERIEL</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Type de données
+</p>
+</td>
+<td width="75%">
+<p align="left">int
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Obligatoire
+</p>
+</td>
+<td width="75%">
+<p align="left">Oui
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="648">Nom de contrainte de paramètre de contrôle de la colonne idMateriel de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">CKC_IDMATERIEL_UTILISE
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="649">Contrôle de la colonne idMateriel de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur minimale
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur maximale
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur par défaut
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Unité
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Format
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Majuscules
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Minuscules
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Non modifiable
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Liste des valeurs
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="650">Règle de validation serveur de la colonne idMateriel de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">%MINMAX% and %LISTVAL% and %UPPER% and %LOWER% and %RULES%
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="651">Liste de tous les objets dépendant de la colonne de table idMateriel</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de classe
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp37.htm#660">Identifiant_1</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp37.htm#660">IDENTIFIANT_1</a>
+</p>
+</td>
+<td>
+<p align="left">Clé
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">&lt;Inconnu&gt;
+</p>
+</td>
+<td class="TD2">
+<p align="left">&lt;Inconnu&gt;
+</p>
+</td>
+<td class="TD2">
+<p align="left">Jointure de référence
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="652">Liste des attributs étendus de la colonne de table idMateriel</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Type de données
+</p>
+</td>
+<td class="Header">
+<p align="center">Valeur
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de la cible
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtCkcNotForReplication
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtCollation
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtDeftConstName
+</p>
+</td>
+<td>
+<p align="left">(Chaîne)
+</p>
+</td>
+<td>
+<p align="left">&nbsp; 
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtIdentitySeedInc
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtIdtNotForReplication
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtNullConstName
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtRowGuidCol
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+</table><br />
+<h2>
+<a name="653">Colonne description de la table utilise</a> 
+</h2>
+<h3>
+<a name="654">Fiche de la colonne description de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Nom
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#653">description</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Code
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#653">DESCRIPTION</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Type de données
+</p>
+</td>
+<td width="75%">
+<p align="left">char(700)
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Obligatoire
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="655">Nom de contrainte de paramètre de contrôle de la colonne description de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">CKC_DESCRIPTION_UTILISE
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="656">Contrôle de la colonne description de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur minimale
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur maximale
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Valeur par défaut
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Unité
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Format
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Majuscules
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Minuscules
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Non modifiable
+</p>
+</td>
+<td width="75%">
+<p align="left">Non
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Liste des valeurs
+</p>
+</td>
+<td width="75%">
+<p align="left">&nbsp; 
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="657">Règle de validation serveur de la colonne description de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">%MINMAX% and %LISTVAL% and %UPPER% and %LOWER% and %RULES%
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="658">Liste des attributs étendus de la colonne de table description</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Type de données
+</p>
+</td>
+<td class="Header">
+<p align="center">Valeur
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de la cible
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtCkcNotForReplication
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtCollation
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtDeftConstName
+</p>
+</td>
+<td>
+<p align="left">(Chaîne)
+</p>
+</td>
+<td>
+<p align="left">&nbsp; 
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtIdentitySeedInc
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtIdtNotForReplication
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">ExtNullConstName
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">ExtRowGuidCol
+</p>
+</td>
+<td>
+<p align="left">(Booléen)
+</p>
+</td>
+<td>
+<p align="left">false
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">Sparse
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Booléen)
+</p>
+</td>
+<td class="TD2">
+<p align="left">false
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="659">Liste des clés de la table utilise</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+<td class="Header">
+<p align="center">Primaire
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp37.htm#660">Identifiant_1</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp37.htm#660">IDENTIFIANT_1</a>
+</p>
+</td>
+<td>
+<p align="left">X
+</p>
+</td>
+</tr>
+</table><br />
+<h2>
+<a name="660">Clé Identifiant_1 de la table utilise</a> 
+</h2>
+<h3>
+<a name="661">Fiche de la clé Identifiant_1 de la table utilise</a> 
+</h3>
+<table class="Form" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header" width="25%">
+<p align="left">Nom
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#660">Identifiant_1</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Code
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#660">IDENTIFIANT_1</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="Header" width="25%">
+<p align="left">Table
+</p>
+</td>
+<td width="75%">
+<p align="left"><a href="Rapp37.htm#629">utilise</a>
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="662">Aperçu du code de la clé Identifiant_1 de la table utilise</a> 
+</h3>
+<table class="Text" border="1" cellpadding="3" cellspacing="1" width="100%"><tr><td>
+<p align="left">alter table UTILISE<br />
+   drop constraint PK_UTILISE<br />
+go<br />
+
+</p>
+</td></tr>
+</table><br />
+<h3>
+<a name="663">Liste des colonnes de clé de la table Identifiant_1</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Code
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left"><a href="Rapp37.htm#639">idEvent</a>
+</p>
+</td>
+<td>
+<p align="left"><a href="Rapp37.htm#639">IDEVENT</a>
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left"><a href="Rapp37.htm#646">idMateriel</a>
+</p>
+</td>
+<td class="TD2">
+<p align="left"><a href="Rapp37.htm#646">IDMATERIEL</a>
+</p>
+</td>
+</tr>
+</table><br />
+<h3>
+<a name="664">Liste des attributs étendus de la clé de table Identifiant_1</a> 
+</h3>
+<table class="Grid" border="1" cellspacing="1" width="100%">
+<tr>
+<td class="Header">
+<p align="center">Nom
+</p>
+</td>
+<td class="Header">
+<p align="center">Type de données
+</p>
+</td>
+<td class="Header">
+<p align="center">Valeur
+</p>
+</td>
+<td class="Header">
+<p align="center">Nom de la cible
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="left">FileGroup
+</p>
+</td>
+<td>
+<p align="left">(Chaîne)
+</p>
+</td>
+<td>
+<p align="left">&nbsp; 
+</p>
+</td>
+<td>
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+<tr>
+<td class="TD2">
+<p align="left">FillFactor
+</p>
+</td>
+<td class="TD2">
+<p align="left">(Chaîne)
+</p>
+</td>
+<td class="TD2">
+<p align="left">&nbsp; 
+</p>
+</td>
+<td class="TD2">
+<p align="left">Microsoft SQL Server 2008
+</p>
+</td>
+</tr>
+</table><br />
+<hr />
+<table><tr>
+<td><table class="NavGroup"><tr><td><a class="NavButton" href="Rapp36.htm">Précédent</a></td></tr></table></td>
+<td width=4></td>
+<td><table class="NavGroup"><tr><td><a class="NavButton" href="Accueil_BleuClair.html">Accueil</a></td></tr></table></td>
+<td width=4></td>
+<td><table class="NavGroup"><tr><td><a class="NavButton" href="Rapp38.htm">Suivant</a></td></tr></table></td></tr></table>
+<br />
+<br />
+</body>
+</html>

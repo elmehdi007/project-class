@@ -1,0 +1,19 @@
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\obj\Debug\gestion_comptoir.csprojResolveAssemblyReference.cache
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\obj\Debug\Gestion_comptoir.Properties.Resources.resources
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\obj\Debug\gestion_comptoir.csproj.GenerateResource.Cache
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\bin\Debug\Gestion Comptoir.exe.config
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\bin\Debug\Gestion Comptoir.exe
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\bin\Debug\Gestion Comptoir.pdb
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\obj\Debug\Gestion Comptoir.exe
+C:\Users\ME\Documents\Visual Studio 2017\Projects\gestion_comptoir\WindowsFormsApp3\obj\Debug\Gestion Comptoir.pdb
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\bin\Debug\Gestion Comptoir.exe.config
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\bin\Debug\Gestion Comptoir.exe
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\bin\Debug\Gestion Comptoir.pdb
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\obj\Debug\gestion_comptoir.csprojResolveAssemblyReference.cache
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\obj\Debug\Gestion_comptoir.Properties.Resources.resources
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\obj\Debug\gestion_comptoir.csproj.GenerateResource.Cache
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\obj\Debug\Gestion Comptoir.exe
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\obj\Debug\Gestion Comptoir.pdb
+C:\Users\ME\Desktop\GESTION\Mini  projet - LP MIAGE 2017_2018 -\Projet commande c# avec SQL SERVER\gestion_comptoir\WindowsFormsApp3\obj\Debug\Gestion_comptoir.frmAddCommande.resources
